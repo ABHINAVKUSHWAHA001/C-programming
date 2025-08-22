@@ -1,0 +1,18 @@
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+    char a[20],b[20];
+    int y;
+    printf("enter any string");
+    gets (a);
+    strcpy(b,a);
+    strrev(a);
+    y=strcmp(a,b);
+    if(y==0)
+    printf("enter is palindrome");
+    else
+    printf("enter is not palindrome");
+ 
+return 0;
+}
